@@ -15,15 +15,65 @@
         <img src="odin-lined.png">
         <h1>ODIN</h1>
       </div>
-
       <div class="credit">
         Photo by <a href="https://unsplash.com/@haliewestphoto" target="_blank">Halie West</a>
-         on <a href="https://unsplash.com/photos/25xggax4bSA" target="_blank">Unsplash</a></p>
+          on <a href="https://unsplash.com/photos/25xggax4bSA" target="_blank">Unsplash</a></p>
       </div>
     </div>
 
     <div class="main">
-      
+      <div class="signup-msg">
+        This is not a real online service!
+          You know you need something like this in your life to help you realize your deepest dreams.
+          Sign up <span class="italic">now</span> to get started.
+          <br><br>
+          You <span class="italic">know</span> you want to.
+      </div>
+
+      <div class="signup">
+        <form action="#" method="post">
+          <div class="form-container">
+            Let's do this!
+            
+            <div class="form-input">
+              <div class="form-left">
+                <div>
+                  <label for="first_name">FIRST NAME</label><br>
+                  <input type="text" id="first_name" name="first_name" required>
+                </div>
+                <div>
+                  <label for="email">EMAIL</label><br>
+                  <input type="email" id="email" name="email" required>
+                </div>
+                <div>
+                  <label for="password">PASSWORD</label><br>
+                  <input type="password" id="password" name="password" class="error" required><br>
+                  <div class="error-msg" id="error-msg">* Passwords do not match</div>
+                </div>
+              </div>
+              <div class="form-right">
+                <div>
+                  <label for="last_name">LAST NAME</label><br>
+                  <input type="text" id="last_name" name="last_name" required>
+                </div>
+                <div>
+                  <label for="phone_number">PHONE NUMBER</label><br>
+                  <input type="tel" id="phone_number" name="phone_number" required>
+                </div>
+                <div>
+                  <label for="confirm_password">CONFIRM PASSWORD</label><br>
+                  <input type="password" id="confirm_password" name="confirm_password" class="error" required>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="submit-btn">
+            <button type="submit">Create Account</button>
+          </div>
+        </form>
+      </div>
+      <div class="login-msg">Already have an account? <a href="#">Log in</a></div>
     </div>
   </div>
 </body>

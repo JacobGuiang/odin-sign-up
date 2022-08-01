@@ -57,8 +57,53 @@ body {
   height: 100vh;
 }
 
-a {
+button {
+  background-color: #596D48;
   color: white;
+  border: none;
+  padding: 20px 80px;
+  border-radius: 10px;
+  margin: 40px 60px;
+  font-size: 1.6rem;
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+input {
+  border: 1px solid #E5E7EB;
+  border-radius: 6px;
+  width: 350px;
+  height: 40px;
+  font-size: 1.2rem;
+  padding-left: 10px;
+  box-sizing: border-box;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid blue;
+  box-shadow: 4px 4px 4px rgb(0, 0, 0, 0.1);
+}
+
+label {
+  margin-top: 30px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  font-weight: normal;
+  display: inline-block;
+}
+
+input.error {
+  border: 1px solid red;
+}
+
+.error-msg {
+  color: red;
+  font-weight: normal;
+  font-size: 1rem;
+  letter-spacing: normal;
+  margin-top: 2px;
 }
 
 .container {
@@ -70,7 +115,8 @@ a {
   background-image: url('background.jpg');
   background-position: center;
   background-size: cover;
-  width: 35%;
+  width: 34%;
+  height: 100%;
 }
 
 .logo {
@@ -100,9 +146,54 @@ a {
   text-align: center;
   position: absolute;
   bottom: 10px;
-  width: 35%;
+  width: 34%;
+}
+
+.credit a {
+  color: white;
 }
 
 .main {
-  width: 65%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 66%;
+  height: 100%;
+  background-color: #f6f6f6;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.signup-msg {
+  margin-left: 60px;
+  margin-right: 200px;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px 60px 40px;
+  box-shadow: 10px 10px 10px rgb(0, 0, 0, 0.1);
+  margin-top: 60px;
+}
+
+.form-input {
+  display: flex;
+  letter-spacing: 0.1rem;
+  gap: 100px;
+}
+
+.login-msg {
+  margin-left: 60px;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.login-msg a {
+  text-decoration: none;
+  color: #596D48;
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
 }
