@@ -47,3 +47,62 @@ table {
 	border-spacing: 0;
 }
 
+@font-face {
+  font-family: 'Norse Bold';
+  src: url('Norse-Bold.otf');
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  height: 100vh;
+}
+
+a {
+  color: white;
+}
+
+.container {
+  display: flex;
+  height: 100%;
+}
+
+.sidebar {
+  background-image: url('background.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 35%;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Norse Bold';
+  color: white;
+  background: rgba(0, 0, 0, 0.5);
+  height: 200px;
+  box-sizing: border-box;
+  padding: 10px;
+  position: relative;
+  top: 20%;
+}
+
+.logo img {
+  max-height: 100%;
+}
+
+.logo h1 {
+  font-size: 8rem;
+}
+
+.credit {
+  color: white;
+  text-align: center;
+  position: absolute;
+  bottom: 10px;
+  width: 35%;
+}
+
+.main {
+  width: 65%;
+}
