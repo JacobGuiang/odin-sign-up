@@ -115,7 +115,7 @@ input.error {
   background-image: url('background.jpg');
   background-position: center;
   background-size: cover;
-  width: 34%;
+  flex: 1;
   height: 100%;
 }
 
@@ -146,7 +146,7 @@ input.error {
   text-align: center;
   position: absolute;
   bottom: 10px;
-  width: 34%;
+  width: 100%;
 }
 
 .credit a {
@@ -157,7 +157,7 @@ input.error {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 66%;
+  flex: 3;
   height: 100%;
   background-color: #f6f6f6;
   font-size: 2rem;
